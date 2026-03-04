@@ -1,0 +1,27 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Database file — keep local only
+daydrift.db
+
+# Drizzle migrations metadata (optional, can keep if you want)
+# drizzle/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
